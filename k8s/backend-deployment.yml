@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: chat-backend
-          image: sohail28/chat-backend:v1
+          image: sohail28/chat-backend:v2
           ports:
             - containerPort: 5001
           env:
