@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: chat-frontend
-          image: sohail28/chat-frontend:latest
+          image: sohail28/chat-frontend:v2
           imagePullPolicy: Always
           ports:
             - containerPort: 80
